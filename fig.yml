@@ -1,7 +1,7 @@
 starbound_server:
-	build: .
-	name: starbound
-	volumes:
-	- /volumes/starbound:/home/steam/starbound
-	ports:
-	- "21025:21025"
+  build: .
+  name: starbound
+  volumes:
+    - /volumes/starbound:/home/steam/starbound
+  ports:
+    - "21025:21025"
